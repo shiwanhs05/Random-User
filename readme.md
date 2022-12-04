@@ -1,6 +1,6 @@
 # Random User
 
-[Live Website](https://randomdadjokess.netlify.app/)
+[Live Website](https://randomuserprojectt.netlify.app/)
 
 ## This website dynamically displays random users and their details with the help of API. 
 

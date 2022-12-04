@@ -1,10 +1,10 @@
 import get from './getElement.js';
 
+const btns = [...get('.icon', true)];
+
 export const img = get('.user-img');
 export const title = get('.user-title');
 export const value = get('.user-value');
-const btns = [...get('.icon', true)];
-
 export const displayUser = (person) => {
   img.src = person.pic;
   value.textContent = person.name;
@@ -21,5 +21,3 @@ export const displayUser = (person) => {
     });
   });
 };
-
-// export default displayUser;
